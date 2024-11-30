@@ -15,22 +15,45 @@
 <h1>Welcome to my portfolio</h1>
 <h2>My name is Malik Masalmeh</h2>
 
+<input type="radio" id="male" name="fav_language" value="Male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="fav_language" value="female">
+<label for="female">Female</label><br><br>
+
+
 <table style="width:100%">
 
   <tr>
     <td>Project Name</td>
     <td>Technologies</td>
+    <td>Links</td>
   </tr>
   <tr>
     <td>E-commerce Project</td>
     <td>Spring boot , React</td>
+    <td><a href="https://www.linkedin.com/in/malikmasalmeh/">LinkedIn</a></td>
 
   </tr>
   <tr>
     <td>Cafeteria Management System Project</td>
     <td>Spring boot , flutter</td>
+    <td><a href="https://www.linkedin.com/in/malikmasalmeh/">LinkedIn</a></td>
+
   </tr>
 </table>
+
+<br>
+
+<form action="">
+  <label for="projects">Choose a project:</label>
+  <select name="projects" id="projects">
+    <option value="E-commerce Project">E-commerce Project</option>
+    <option value="Cafeteria Management System Project">Cafeteria Management System Project</option>
+  </select>
+
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
 
 <div>
   <h3> About me </h3>
@@ -63,9 +86,27 @@
       <label for="fdesc">desc:</label>
       <textarea type="text" id="fdesc" name="fdesc" placeholder="write your message here" , rows="4" cols="50" required></textarea><br><br>
     </div>
+    <div>
+      <input type="button" value="submit">
+    </div>
 
   </form>
 </div>
+
+<div>
+  <p>Positions fit for me </p>
+</div>
+
+
+<form action="">
+  <input type="checkbox" id="frontEnd" name="frontEnd" value="frontEnd">
+  <label for="frontEnd"> frontEnd</label><br>
+  <input type="checkbox" id="backend" name="backend" value="backend">
+  <label for="backend"> backend</label><br>
+  <input type="checkbox" id="fullstack" name="fullstack" value="fullstack">
+  <label for="fullstack"> fullstack</label><br><br>
+  <input type="submit" value="Submit">
+</form>
 
 
 
